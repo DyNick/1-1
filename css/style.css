@@ -1,0 +1,660 @@
+/*==========General=====================*/
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #efeff2;
+}
+input, textarea {
+    box-sizing: border-box;
+}
+
+ul li {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "OneplusOne Light", sans-serif !important;
+
+}
+header{
+    width: 100%;
+    background-color: #fff;
+}
+.main {
+    width: 100%;
+
+}
+
+.wrapper {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section{
+    width: 1405px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/*============/General===================*/
+
+/*================navigation==============*/
+
+/*------------------nav-first-------------*/
+.nav-first {
+    background-color: #000;
+    height: 52px;
+    line-height: 52px;
+}
+
+.logo {
+    margin-left: 60px;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+.nav-first__list {
+    color: #fff;
+    display: inline-block;
+}
+
+.nav-first__link:hover {
+    color: #ff0030;
+}
+
+.nav-first__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: 'OnePlusOne Heavy', sans-serif;
+}
+
+.nav-second__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: 'OnePlusOne Heavy', sans-serif;
+}
+
+.nav-second__link:hover {
+    color: #ff0030;
+}
+
+.nav-first__list__item,.nav-second__list__item {
+    margin-right: 50px;
+}
+
+.nav-second__list {
+    float: right;
+    display: inline-block;
+}
+
+/*-----------------/nav-first-------------*/
+
+/*------------------nav-bottom-------------*/
+.nav-bottom {
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.82) none repeat scroll 0% 0%;
+}
+
+.nav-bottom__list__item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-family: "OnePlusOne Regular", sans-serif;
+    line-height: 42px;
+    height: 40px;
+    position: relative;
+    text-transform: uppercase;
+    color: #727272;
+    font-size: 14px;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    padding: 0 10px;
+    border-right: 1px solid #d1d1d1;
+}
+
+.nav-bottom__list__item:last-child {
+    border: none;
+}
+
+.nav-bottom__list__item:hover {
+    background-color: #ff0030;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*------------------/nav-bottom-------------*/
+
+/*================/navigation==============*/
+
+
+/*===================section-programs================*/
+
+/*-------------carouse--------------------*/
+#carousel {
+  /*  width: 1245px;*/
+    width: 1094px;
+    margin: 0 auto;
+    height: 130px;
+}
+.owl-item{
+    width: 150.5px !important;
+}
+.owl-stage{
+    width: 2000px !important;
+}
+/*-----custom------*/
+.active-day{
+border:2px solid red!important;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.owl-prev{
+    border-radius: 4px 0 0 4px !important;
+    font-size: 60px!important;
+    font-weight:normal;
+}
+.owl-next{
+    border-radius: 0px 4px 4px 0px !important;
+    font-size: 60px!important;
+    font-weight:normal;
+}
+.owl-carousel .owl-stage-outer{
+    padding-top: 13px;
+}
+.owl-carousel{
+    top:60px;
+}
+
+/*-----/custom------*/
+.carousel a {
+    color: #000;
+    display: inline-block;
+    width: 100px;
+}
+.carousel a:hover {
+    height: 100%;
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.week-container {
+    display: inline-block;
+   /* padding: 4px 14px;*/
+  /*  vertical-align: top;*/
+   /* margin: 0 15px;
+    width: 110px;
+    width: 100%;*/
+}
+
+.week-day {
+    font-size: 33px;
+    line-height: 32px;
+    padding: 12px 8px 6px;
+    display: inline-block;
+    text-align: center;
+    border:2px solid transparent;
+/*    width: 100%;*/
+}
+
+.week-date {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4px 0 7px;
+    color: #d4d7da;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.week-container:hover {
+    color: #000;
+}
+.owl-item{
+    text-align: center;
+}
+/*--------------/carousel------------------*/
+
+/*-------------sub-menu----------------------*/
+
+.sub-menu{
+    text-align: center;
+    padding: 30px 0 25px;
+}
+.sub-menu ul li{
+    color: #000;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 90px 37px 14px;
+    font-family: "OneplusOne Light",sans-serif;
+
+}
+.sub-menu ul li a{
+    color: #000;
+ /*   display: inline-block;
+    width: 100%*/
+ }
+.sub-menu ul li a:hover{
+    color: #f03;
+
+}
+/*-------------/sub-menu----------------------*/
+
+/*--------------programs----------------------*/
+.banner{
+    padding-bottom: 35px;
+}
+.programs{
+    padding:0 0 35px 0;
+}
+.time{
+    width: 305px;
+    display: table;
+}
+.time-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.time-body{
+    font-family: "OnePlusOne Heavy",sans-serif;
+    font-size: 50px;
+    text-align: left;
+    line-height: 50px;
+}
+.programs-block{
+    height: 145px;
+    float: left;
+    margin-right: 15px;
+}
+.time-flag,.time-body{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.programs-img-main{
+    border:3px solid transparent;
+    height: 145px;
+    width: 190px;
+    box-sizing: border-box;
+}
+.programs-img-main:hover{
+    border:3px solid #f03;
+    cursor: pointer;
+}
+.tv-title{
+    font-size: 34px;
+    line-height: 30px;
+    padding-bottom: 12px;
+    margin-right: 40px;
+    /*margin-left: 11px;*/
+    margin-top: 12px;
+    font-family: "OneplusOne Light",sans-serif;
+}
+.tv-title--active{
+    text-transform: uppercase;
+}
+
+.tv-title a{
+    color: #000;
+}
+.time-body--active{
+    color: #f03;
+}
+
+.tv-title--active{
+    font-family: "OnePlusOne Heavy",sans-serif;
+}
+.programs-description{
+    margin-left: 15px;
+    width: 782px;
+}
+.programs-description ul{
+    /*margin-left: 19px;*/
+}
+.programs-description ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.programs-description ul li a span{
+    font-size: 15px;
+    border: 1px solid #f03;
+    border-radius: 6px;
+    padding: 0px 16px;
+    color: #f03;
+    line-height: 22px;
+    width: auto;
+    display: inline-block;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.programs-description ul li a :hover{
+    background-color: #f03;
+    color: #fff;
+}
+.programs-description-text{
+    line-height: 20px;
+    font-size: 16px;
+    padding:5px 0 0 0;
+}
+.text{
+   /* margin-left: 11px;*/
+}
+.online{
+    border: 1px solid #f03;
+    color: #fff !important;
+    background-color: #f03;
+}
+.online:before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #fff;
+    margin-right: 10px;
+}
+/*--------------/programs-----------------------*/
+
+/*===================/section-programs================*/
+
+
+/*===================/section-popular================*/
+.section-popular{
+    width: 1920px;
+    margin-top:40px;
+}
+.popular-container{
+    width: 1520px;
+    margin: 0 auto;
+}
+.popular-title{
+    text-align: center;
+    font-family: "OneplusOne Heavy",sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    padding: 37px 0 30px;
+}
+
+.column{
+    width: 340px;
+    margin: 0 20px;
+    float:left;
+}
+.column-title{
+    padding: 3px 0 15px 0;
+    font-family: "OneplusOne Light", sans-serif;
+    height: 90px;
+}
+.column-title--big{
+    padding: 9px 0 15px 0;
+    font-family: "OneplusOne Light", sans-serif;
+    height: 66px;
+}
+.title-link{
+    font-size: 23px!important;
+}
+.column-title a{
+     color: #000;
+    font-size: 18px;
+    line-height: 20px;
+}
+.column-title  :hover{
+    color: #f03;
+}
+.column-image{
+    height: 345px;
+    width: 345px;
+    border:3px solid transparent;
+    box-sizing: border-box;
+}
+.column-image:hover{
+    border:3px solid #f03;
+}
+.column-image--big{
+    height: 680px;
+    width: 340px;
+}
+.column-description{
+    max-height: 60px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #8e8e8e;
+}
+/*===================/section-popular================*/
+
+/*================footer==============================*/
+.footer{
+    background-color: #000;
+    width: 1920px;
+    margin: 0 auto;
+}
+.footer-logos{
+    margin: 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    width: 1800px;
+    padding-top: 40px;
+}
+/*.footer-logos span{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    text-align: center;
+}*/
+.footer-nav{
+    width: 1800px;
+    margin: 40px 60px 20px;
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+}
+.footer__list li{
+    display: inline-block;
+}
+.footer__list li a{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 20px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 140%;
+    font-family: "OnePlusOne Regular",sans-serif;
+    border-right: 2px solid #fff;
+}
+.problems-link{
+    border-right: none!important ;
+}
+.contact{
+    text-align: center;
+    color: #676767;
+    padding-bottom: 20px;
+}
+
+/*================/footer=============================*/
+
+/*===================playlist========================*/
+
+.playlist {
+    width: 100%;
+    background: #000;
+    display: table;
+    position: relative;
+    height: 380px;
+}
+.playlist-time{
+    position: relative;
+    width: 305px;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 17px;
+    padding-top: 20px;
+    display: table-cell;
+}
+
+.button-close {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    z-index: 1;
+    padding: 10px 12px;
+    font-size: 20px;
+    line-height: 15px;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #727272;
+    text-transform: uppercase;
+    font-family: "OneplusOne Light",sans-serif;
+}
+.button-close:hover{
+    border: 1px solid #fff;
+    color:#fff;
+    cursor: pointer;
+}
+
+.week-day {
+    line-height: 36px;
+    color: #8d8d8d;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    padding: 6px 8px ;
+    display: inline-block;
+}
+.week-date {
+    font-size: 14px;
+    line-height: 20px;
+    color: #d4d7da;
+    padding: 7px 0 13px;
+    display: block;
+    white-space: nowrap;
+}
+.time-up, .time-down {
+    width: 165px ;
+    height: 41px ;
+    border-radius: 5px;
+    border:1px solid #727272;
+    position: relative;
+    display: inline-block;
+}
+.time-down:hover{
+    cursor:pointer;
+}
+.time-up:hover{
+    cursor:pointer;
+}
+
+.time-up img, .time-down img{
+    position: absolute;
+    display: block;
+    width: 23px;
+    height: 13px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+.time-text{
+    color: #fff;
+    padding: 6px 0 10px;
+    text-align: center;
+    font-family: "OnePlusOne Heavy",sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+.iframe-wrapper{
+    display:table-cell;
+    width: 450px;
+    height: 100%;
+    float: left;
+    margin-right: 17px;
+}
+.playlist-about {
+    position: relative;
+    top: 0px;
+    text-align: left;
+    line-height: 20px;
+    display:table-cell;
+    padding-right: 60px;
+}
+.about-text{
+    padding-bottom: 15px;
+}
+.about-text p{
+    color: #fff;
+}
+.about-title{
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 10px;
+    font-family: "OnePlusOne Heavy",sans-serif;
+    text-transform: uppercase;
+    padding-top: 28px;
+}
+.about-season{
+    font-size: 16px;
+    color: #fff;
+    font-family: "OnePlusOne Heavy",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+.about-title a{
+    color: #fff;
+}
+.about-links{
+    padding-bottom: 10px;
+}
+.about-links__blue {
+    color: #12AAEB;
+    padding: 0;
+    margin-right: 45px;
+
+}
+.about-links__blue:hover{
+    text-decoration: underline;
+}
+.about-tags__body {
+    color: #8e8e8e;
+    font-family: "OneplusOne Regular", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid #8e8e8e;
+    width: auto;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 1px 12px;
+    text-transform: none;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.about-tags__body:hover{
+    border: 1px solid #f03;
+    color: #f03;
+}
+
+/*===================/playlist========================*/

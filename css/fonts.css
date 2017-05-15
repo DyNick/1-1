@@ -1,0 +1,58 @@
+
+@font-face {
+  font-family: 'OnePlusOne BoldItalic';
+  src: url('../fonts/OnePlusOne2015-BoldItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OnePlusOne Heavy';
+  src: url('../fonts/OnePlusOne2015-Heavy.otf');
+  font-weight: bold;
+  font-style:normal;
+}
+
+
+@font-face {
+  font-family: 'OnePlusOne HeavyItalic';
+  src: url('../fonts/OnePlusOne2015-HeavyItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OnePlusOne Italic';
+  src: url('../fonts/OnePlusOne2015-Italic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OnePlusOne Light';
+  src: url('../fonts/OnePlusOne2015-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OnePlusOne LightItalic';
+  src: url('../fonts/OnePlusOne2015-LightItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OnePlusOne MediumItalic';
+  src: url('../fonts/OnePlusOne2015-MediumItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OnePlusOne';
+  src: url('../fonts/OnePlusOne2015-Regular.otf');
+  font-weight: bold;
+  font-style: normal;
+}
